@@ -1,14 +1,39 @@
-import React from 'react'
-import CharacterGallery from './components/CharacterGallery'
-import './App.css'
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
+
+import './App.css';
+import CharacterGallery from './components/CharacterGallery'
+
+function App() {
   return (
-    <div data-test='app-container'>
-      <h1 className="site-title" data-test='site-title'>A Song of Fire and Ice</h1>
+    <div className="App" data-test="component-app">
       <CharacterGallery />
     </div>
   );
-};
+}
 
 export default App;
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
